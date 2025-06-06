@@ -1,24 +1,38 @@
-# Distributed File Sharing System
+▶️ Run Server
+bash
+Copy
+Edit
+java Server
+🧑‍💻 Run Client
+Open another terminal:
 
-This project simulates a basic peer-to-peer (P2P) distributed file sharing system using Java, TCP/IP, and multithreading.
+bash
+Copy
+Edit
+java Client
+You can open multiple terminals to simulate multiple clients.
 
-## 🔧 Tech Stack
+📂 Project Structure
+bash
+Copy
+Edit
+shared_files/
+├── Server.java          # Handles incoming connections and file storage
+├── Client.java          # Sends requests and downloads/uploads files
+└── files/               # Directory where files are stored
+📸 Screenshots (Optional)
+You can add screenshots here of your terminal showing file transfers or communication between server and client.
 
-- Java
-- TCP/IP Sockets
-- Multithreading
-- File I/O
+📌 Use Case
+Distributed computing labs or assignments
 
-## 📁 Features
+Demonstration of Java network programming
 
-- Peer discovery
-- File upload/download
-- Concurrent file transfers
-- Simulated fault tolerance
+Simulation of file distribution systems (e.g., BitTorrent-style systems)
 
-## 🚀 How to Run
+🙋‍♂️ Author
+Thanmai Kotha
+📧 thanmaikotha7@gmail.com
+🔗 LinkedIn
+📁 GitHub Portfolio
 
-1. Compile the Java files:
-   ```bash
-   javac Server.java
-   javac Client.java
